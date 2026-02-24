@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WorkshopHeritage.Backend/WorkshopHeritage.Backend.csproj" Id="d3737636-b4c3-4faf-836e-c00cc5efb5da" />
+  <Project Path="WorkshopHeritage.Frontend/WorkshopHeritage.Frontend.csproj" Id="c662c57e-5323-4c50-890b-08f0ff2c8000" />
+</Solution>
