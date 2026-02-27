@@ -8,8 +8,8 @@ public class Square : GeometricFigure
     // Constructor
     public Square(string name, double a) : base(name)
     {
+        ValidateA(a);
         _a = a;
-        ValidateA();
     }
 
     // Properties
@@ -21,9 +21,9 @@ public class Square : GeometricFigure
     public override double GetPerimeter() => 4 * _a;
 
     // Métodos privados
-    private void ValidateA()
+    private void ValidateA(double value)
     {
-        if (_a <= 0)
+        if (value <= 0)
             throw new ArgumentException("A must be greater than zero");
     }
 }
